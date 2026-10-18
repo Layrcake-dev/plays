@@ -1,0 +1,19 @@
+{
+  "name": "account-fit-check",
+  "version": "1.0.0",
+  "description": "Check a list of company domains against the user's must-have criteria (\"do they sell to enterprises?\", \"do they offer an API?\", \"do they book appointments in their product?\") by reading each company's own website, and hand back yes with the quoted passage and page link, not_found or unclear for every company, keeping only the fits before anyone pays for people or emails.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

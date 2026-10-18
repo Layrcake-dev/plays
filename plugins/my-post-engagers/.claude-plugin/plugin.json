@@ -1,0 +1,19 @@
+{
+  "name": "my-post-engagers",
+  "version": "1.0.0",
+  "description": "Turn the people who engaged with the user's own recent LinkedIn posts, or their own company page's posts, into a warm list.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

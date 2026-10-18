@@ -1,0 +1,19 @@
+{
+  "name": "champion-tracker",
+  "version": "1.0.0",
+  "description": "Check a list of past champions, happy users or former customers for anyone who has moved to a new company, confirm the new company is a fit, and hand back each mover with their new work email (checked) and a short \"congrats on the new role\" opener, plus who took over at their old company.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,52 @@
+[
+ {
+  "name": "account-fit-check",
+  "title": "Account fit check",
+  "short": "Check a list of company domains against the user's must-have criteria (\"do they sell to enterprises?\", \"do they offer an API?\", \"do they book appointments in their product?\") by reading each company's own website, and hand back yes with the quoted passage and page link, not_found or unclear for every company, keeping only the fits before anyone pays for people or emails."
+ },
+ {
+  "name": "call-brief",
+  "title": "Call brief",
+  "short": "Before a sales call, build a one-page brief on the company and the person the user is meeting: what the company does and how it is doing, its recent moves with dated sources, who the user is likely meeting and what they have posted lately, and three sharp questions that only make sense after reading it."
+ },
+ {
+  "name": "champion-tracker",
+  "title": "Champion tracker",
+  "short": "Check a list of past champions, happy users or former customers for anyone who has moved to a new company, confirm the new company is a fit, and hand back each mover with their new work email (checked) and a short \"congrats on the new role\" opener, plus who took over at their old company."
+ },
+ {
+  "name": "hiring-manager-finder",
+  "title": "Hiring manager finder",
+  "short": "Find the person who owns a specific open role."
+ },
+ {
+  "name": "inbound-triage",
+  "title": "Inbound triage",
+  "short": "Sort new sign-ups and demo requests that arrive from a form with a name, a company and an email address."
+ },
+ {
+  "name": "list-cleanup",
+  "title": "List cleanup",
+  "short": "Clean an existing contact list the user already has, before it gets emailed."
+ },
+ {
+  "name": "lookalike-accounts",
+  "title": "Lookalike accounts",
+  "short": "Start from one to three customer domains the user names and find companies similar to them, saying on what basis each one matches and how closely, dropping poor fits, and optionally confirming the trait that made those customers buy on each company's own website, then hand back a ranked account list ready for finding contacts."
+ },
+ {
+  "name": "my-post-engagers",
+  "title": "My post engagers",
+  "short": "Turn the people who engaged with the user's own recent LinkedIn posts, or their own company page's posts, into a warm list."
+ },
+ {
+  "name": "warm-leads-from-post",
+  "title": "Warm leads from someone else's post",
+  "short": "Turn the audience of someone else the user's buyers follow into warm leads."
+ },
+ {
+  "name": "who-to-contact-first",
+  "title": "Who to contact first",
+  "short": "Rank a list of people the user already has (name, company, LinkedIn URL) by who to contact this week, using each person's recent public LinkedIn activity (their own posts, comments, reactions, or posts they were named in), each with the signal, its date, the link and a first line that refers to it naturally."
+ }
+]

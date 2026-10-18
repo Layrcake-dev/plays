@@ -1,0 +1,62 @@
+{
+  "name": "layrcake-plays",
+  "owner": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "plugins": [
+    {
+      "name": "account-fit-check",
+      "source": "./plugins/account-fit-check",
+      "description": "Check a list of company domains against the user's must-have criteria (\"do they sell to enterprises?\", \"do they offer an API?\", \"do they book appointments in their product?\") by reading each company's own website, and hand back yes with the quoted passage and page link, not_found or unclear for every company, keeping only the fits before anyone pays for people or emails."
+    },
+    {
+      "name": "call-brief",
+      "source": "./plugins/call-brief",
+      "description": "Before a sales call, build a one-page brief on the company and the person the user is meeting: what the company does and how it is doing, its recent moves with dated sources, who the user is likely meeting and what they have posted lately, and three sharp questions that only make sense after reading it."
+    },
+    {
+      "name": "champion-tracker",
+      "source": "./plugins/champion-tracker",
+      "description": "Check a list of past champions, happy users or former customers for anyone who has moved to a new company, confirm the new company is a fit, and hand back each mover with their new work email (checked) and a short \"congrats on the new role\" opener, plus who took over at their old company."
+    },
+    {
+      "name": "hiring-manager-finder",
+      "source": "./plugins/hiring-manager-finder",
+      "description": "Find the person who owns a specific open role."
+    },
+    {
+      "name": "inbound-triage",
+      "source": "./plugins/inbound-triage",
+      "description": "Sort new sign-ups and demo requests that arrive from a form with a name, a company and an email address."
+    },
+    {
+      "name": "list-cleanup",
+      "source": "./plugins/list-cleanup",
+      "description": "Clean an existing contact list the user already has, before it gets emailed."
+    },
+    {
+      "name": "lookalike-accounts",
+      "source": "./plugins/lookalike-accounts",
+      "description": "Start from one to three customer domains the user names and find companies similar to them, saying on what basis each one matches and how closely, dropping poor fits, and optionally confirming the trait that made those customers buy on each company's own website, then hand back a ranked account list ready for finding contacts."
+    },
+    {
+      "name": "my-post-engagers",
+      "source": "./plugins/my-post-engagers",
+      "description": "Turn the people who engaged with the user's own recent LinkedIn posts, or their own company page's posts, into a warm list."
+    },
+    {
+      "name": "warm-leads-from-post",
+      "source": "./plugins/warm-leads-from-post",
+      "description": "Turn the audience of someone else the user's buyers follow into warm leads."
+    },
+    {
+      "name": "who-to-contact-first",
+      "source": "./plugins/who-to-contact-first",
+      "description": "Rank a list of people the user already has (name, company, LinkedIn URL) by who to contact this week, using each person's recent public LinkedIn activity (their own posts, comments, reactions, or posts they were named in), each with the signal, its date, the link and a first line that refers to it naturally."
+    }
+  ],
+  "metadata": {
+    "description": "Layrcake plays: single-purpose go-to-market skills for Claude, each tested on live data. Install only the ones you need."
+  }
+}

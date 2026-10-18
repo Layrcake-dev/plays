@@ -1,0 +1,19 @@
+{
+  "name": "lookalike-accounts",
+  "version": "1.0.0",
+  "description": "Start from one to three customer domains the user names and find companies similar to them, saying on what basis each one matches and how closely, dropping poor fits, and optionally confirming the trait that made those customers buy on each company's own website, then hand back a ranked account list ready for finding contacts.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

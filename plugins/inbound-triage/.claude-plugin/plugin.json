@@ -1,0 +1,19 @@
+{
+  "name": "inbound-triage",
+  "version": "1.0.0",
+  "description": "Sort new sign-ups and demo requests that arrive from a form with a name, a company and an email address.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "call-brief",
+  "version": "1.0.0",
+  "description": "Before a sales call, build a one-page brief on the company and the person the user is meeting: what the company does and how it is doing, its recent moves with dated sources, who the user is likely meeting and what they have posted lately, and three sharp questions that only make sense after reading it.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

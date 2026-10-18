@@ -1,0 +1,19 @@
+{
+  "name": "who-to-contact-first",
+  "version": "1.0.0",
+  "description": "Rank a list of people the user already has (name, company, LinkedIn URL) by who to contact this week, using each person's recent public LinkedIn activity (their own posts, comments, reactions, or posts they were named in), each with the signal, its date, the link and a first line that refers to it naturally.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}

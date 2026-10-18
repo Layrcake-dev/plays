@@ -1,0 +1,19 @@
+{
+  "name": "warm-leads-from-post",
+  "version": "1.0.0",
+  "description": "Turn the audience of someone else the user's buyers follow into warm leads.",
+  "author": {
+    "name": "Layrcake",
+    "url": "https://layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "claude",
+    "layrcake",
+    "go-to-market"
+  ]
+}
