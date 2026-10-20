@@ -6,6 +6,11 @@
   },
   "plugins": [
     {
+      "name": "layrcake",
+      "source": "./",
+      "description": "All ten Layrcake plays in one install, with the Layrcake connector."
+    },
+    {
       "name": "account-fit-check",
       "source": "./plugins/account-fit-check",
       "description": "Check a list of company domains against the user's must-have criteria (\"do they sell to enterprises?\", \"do they offer an API?\", \"do they book appointments in their product?\") by reading each company's own website, and hand back yes with the quoted passage and page link, not_found or unclear for every company, keeping only the fits before anyone pays for people or emails."

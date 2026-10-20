@@ -1,0 +1,37 @@
+{
+  "name": "layrcake",
+  "displayName": "Layrcake",
+  "version": "1.0.0",
+  "description": "Ten go-to-market plays that run on live Layrcake data: check account fit on company websites, find lookalike accounts, find hiring managers, track job-changing champions, turn LinkedIn post engagement into warm leads, prep sales calls, rank who to contact first, triage inbound sign-ups and clean contact lists before sending. Nothing is ever sent without your approval.",
+  "author": {
+    "name": "Layrcake",
+    "email": "founders@layrcake.dev"
+  },
+  "homepage": "https://layrcake.dev/guides/claude-plays",
+  "repository": "https://github.com/Layrcake-dev/plays",
+  "license": "MIT",
+  "keywords": [
+    "sales",
+    "prospecting",
+    "lead-generation",
+    "account-research",
+    "go-to-market",
+    "linkedin",
+    "email-verification",
+    "layrcake"
+  ],
+  "logo": "assets/logo.png",
+  "skills": [
+    "./plugins/account-fit-check/skills/",
+    "./plugins/call-brief/skills/",
+    "./plugins/champion-tracker/skills/",
+    "./plugins/hiring-manager-finder/skills/",
+    "./plugins/inbound-triage/skills/",
+    "./plugins/list-cleanup/skills/",
+    "./plugins/lookalike-accounts/skills/",
+    "./plugins/my-post-engagers/skills/",
+    "./plugins/warm-leads-from-post/skills/",
+    "./plugins/who-to-contact-first/skills/"
+  ],
+  "mcpServers": "./.mcp.json"
+}

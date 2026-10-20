@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "layrcake": {
+      "type": "http",
+      "url": "https://mcp.layrcake.dev/mcp"
+    }
+  }
+}
