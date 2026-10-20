@@ -30,7 +30,13 @@ A credit is $0.01. Each play states what a step will cost before it runs it, loo
 /plugin install call-brief@layrcake-plays
 ```
 
-Install any play by its name the same way. Then connect Layrcake once for all of them:
+Install any play by its name the same way, or install all ten at once with the Layrcake connector included:
+
+```
+/plugin install layrcake@layrcake-plays
+```
+
+If you installed single plays, connect Layrcake once for all of them:
 
 ```
 claude mcp add --transport http --scope user layrcake https://mcp.layrcake.dev/mcp
@@ -47,6 +53,22 @@ No Layrcake account yet? Sign up free at [layrcake.dev/connect](https://layrcake
 ## How the plays are built
 
 Every play follows the [Agent Outbound Standard](https://layrcake.dev/guides/agent-outbound-standard): it works inside a budget, never invents people or addresses, checks addresses before anyone sends, and stops at a preview for anything that leaves. Agents can read [layrcake.dev/agents.md](https://layrcake.dev/agents.md) for the full rules and tool list.
+
+## What the plays send, and where
+
+The plays contain no code. Each one is a `SKILL.md` file of plain instructions for Claude. They use one service: the Layrcake MCP server at `https://mcp.layrcake.dev/mcp`, which you connect and sign in to with OAuth. Whatever you give a play (company domains, names, LinkedIn profile or post URLs, email addresses, job titles or a contact list) is sent to that server, which looks it up with Layrcake's data providers and keeps the results in your Layrcake workspace. Nothing goes to any other destination. No email is sent from a play, and anything that would send waits for a person to approve a preview. Each step states its credit cost before it runs.
+
+Privacy policy: [layrcake.dev/privacy](https://layrcake.dev/privacy). Terms: [layrcake.dev/terms](https://layrcake.dev/terms).
+
+## Troubleshooting
+
+- **Claude says Layrcake isn't connected:** run `/mcp` in Claude Code (or open Settings → Connectors on claude.ai), choose layrcake and sign in.
+- **A step says you're out of credits:** top up at [layrcake.dev/connect](https://layrcake.dev/connect). Each step states its cost before it runs.
+- **A play stops at a preview:** that is by design. Approve it, change it, or stop there.
+
+## Support
+
+Email [founders@layrcake.dev](mailto:founders@layrcake.dev). For a security issue, see [SECURITY.md](SECURITY.md).
 
 ## License
 

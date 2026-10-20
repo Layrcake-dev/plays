@@ -1,0 +1,6 @@
+{
+  "name": "layrcake",
+  "owner": { "name": "Layrcake", "email": "founders@layrcake.dev" },
+  "metadata": { "description": "Layrcake go-to-market plays for Cursor." },
+  "plugins": [ { "name": "layrcake", "source": ".", "description": "All ten Layrcake plays plus the Layrcake MCP server." } ]
+}
